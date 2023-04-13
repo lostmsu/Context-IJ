@@ -192,7 +192,7 @@ public class BrowserPanel extends JPanel {
     {
         String trim = urlField.getText().trim();
         if (!trim.startsWith("http")) {
-            trim = "http://" + trim;
+            trim = "https://" + trim;
         }
         browserView.load(trim);
     }
